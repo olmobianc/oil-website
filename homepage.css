@@ -1,6 +1,6 @@
 #homepage-container {
     background: black;
-    height: 600px;
+    height: 750px;
 }
 
 .cid-syqDQvUSvi .scroll-wrapper {
@@ -13,7 +13,6 @@
     background-repeat: repeat;
     z-index: 0;
     -webkit-animation-duration: 60s;
-    animation-duration: 60s;
     background-image: url("/olive.jpg");
     -webkit-animation: scroll-wrapper linear infinite;
     -moz-animation: scroll-wrapper linear infinite;
@@ -73,9 +72,10 @@
 }
 
 .description {
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
+    top: 25%;
 }
 
 .mbr-section-title {
@@ -95,4 +95,37 @@
     font-size: 2.5rem;
     font-weight: 600;
     margin-top: 0;
+}
+
+#discover-more-link {
+    color: white;
+    border: 2px solid white;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 600;
+    align-items: center;
+    padding: 8px 24px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    font-weight: 500;
+    z-index: 999;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#discover-more-link:focus {
+    box-shadow: 0 0 0 3px rgb(25 103 210 / 15%);
+    outline: none;
+}
+
+#discover-more-link:hover {
+    border: none;
+    box-shadow: 0 0 0 3px rgb(25 103 210 / 15%);
+    font-family: "Google Sans","Roboto","Arial",sans-serif;
+    background: #ffbc00;
+    color: white;
+    outline: 0;
+    font-weight: 600;
 }
