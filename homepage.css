@@ -1,4 +1,98 @@
 #homepage-container {
-    background: rgb(38, 71, 38);
-    height: 500px;
+    background: black;
+    height: 600px;
+}
+
+.cid-syqDQvUSvi .scroll-wrapper {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat;
+    z-index: 0;
+    -webkit-animation-duration: 60s;
+    animation-duration: 60s;
+    background-image: url("/olive.jpg");
+    -webkit-animation: scroll-wrapper linear infinite;
+    -moz-animation: scroll-wrapper linear infinite;
+    -o-animation: scroll-wrapper linear infinite;
+    animation: scroll-wrapper linear infinite;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.cid-syqDQvUSvi .scroll-wrapper.second {
+    left: calc(100% - 1px);
+}
+.cid-syqDQvUSvi .mbr-overlay {
+    z-index: 1;
+}
+.cid-syqDQvUSvi .block-content {
+    z-index: 2;
+}
+@keyframes scroll-wrapper {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes scroll-wrapper {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+@-moz-keyframes scroll-wrapper {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+@-o-keyframes scroll-wrapper {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+}
+
+.description {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.mbr-section-title {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.mbr-text {
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-family: 'Signature of the Ancient', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 0;
 }
