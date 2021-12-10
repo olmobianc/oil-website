@@ -177,6 +177,9 @@
     #footer-end {
         display: block;
     }
+    .footer-end-grid {
+        margin: 20px;
+    }
     #footer-icons-container {
         display: flex;
         align-items: center;
