@@ -30,6 +30,11 @@
     color: white;
 }
 
+.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
 @media screen and (max-width: 700px) {
     .navbar-list {
         padding-left: 8px;

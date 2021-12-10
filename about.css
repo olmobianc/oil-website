@@ -1,0 +1,49 @@
+#about-container {
+    background: #edece9;
+    height: 1100px;
+}
+
+#about {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eee #eee #d5d5d5 #eee;
+    box-shadow: 0 5px 0 rgb(200 200 200 / 20%);
+}
+
+#title-about {
+    font-family: "Caudex", serif;
+    font-size: 3.5711em;
+    line-height: 1.33em;
+    font-weight: 400;
+    color: #2c3136;
+}
+
+.title-about-box {
+    text-align: center;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.about-paragraph {
+    font-size: 14px;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+#image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium-image {
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    box-shadow: 4px 6px 8px 4px rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
