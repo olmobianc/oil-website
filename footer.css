@@ -17,8 +17,7 @@
 
 #newsletter-subtitle {
     color: #416163;
-    text-transform: uppercase;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 #newsletter {
@@ -74,6 +73,10 @@
     color: thistle;
 }
 
+#footer-icons-container {
+    display: flex;
+}
+
 #rule {
     height:2px;
     border-width:0;
@@ -115,6 +118,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 #footer-paragr {
@@ -144,4 +148,43 @@
     background-color: #ffbc00;
     color: white;
     border: 2px solid white;
+}
+
+#last-paragraph {
+        font-size: 14px;
+    }
+
+#last-paragraph-underlined {
+    border-bottom: 3px solid #ce8a0ce5;
+}
+
+@media screen and (max-width: 700px) {
+    .footer-section {
+        margin-right: 100px;
+        padding: 0;
+    }
+    .footer-elem {
+        padding: 3px;
+    }
+    #rule {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #newsletter-subtitle {
+        font-size: 16px;
+        text-transform: none;
+    }
+    #footer-end {
+        display: block;
+    }
+    #footer-icons-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #footer-paragr {
+        font-size: 12px;
+        margin: 0 12px;
+        text-align: center;
+    }
 }

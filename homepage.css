@@ -3,6 +3,17 @@
     height: 750px;
 }
 
+.mini-description {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: "-webkit-pictograph";
+    font-weight: 500;
+}
+
 .cid-syqDQvUSvi .scroll-wrapper {
     top: 0;
     width: 100%;
@@ -128,4 +139,29 @@
     color: white;
     outline: 0;
     font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+    .description {
+        top: 15%;
+    }
+    .mini-description {
+        display: none;
+    }
+    .mbr-section-title {
+        font-size: 5rem;
+    }
+    .scroll-wrapper {
+        border: 1px solid black;
+    }
+    #homepage-container {
+        height: 650px;
+    }
+    #discover-more-link {
+        font-size: 14px;
+    }
+    #newsletter-form {
+        margin-bottom: 16px;
+        width: 240px!important;
+    }
 }
