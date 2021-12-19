@@ -1,0 +1,125 @@
+#contact-form {
+    margin: 50px;
+}
+
+.input-text {
+    width: 98%;
+    position: relative;
+    margin: 30px 15px 8px 0px;
+}
+
+.input-half {
+    display: inline-block;
+    width: 48%;
+    padding: 7px 7px 7px 0;
+}
+
+.input-text-placeholder {
+    font-size: 16px;
+    color: #8a959e;
+    font-weight: 400;
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.input-text input[type=email],.input-text input[type=name],.input-text input[type=subject],.input-text input[type=location],.input-text input[type=text] {
+    background: #fff;
+    width: 100%;
+    line-height: 1em;
+    border-radius: 3px;
+    padding: 10px 5px;
+    border: 1px solid #d4d7da;
+    color: #464d5d;
+    font-size: 15px
+}
+
+.input-textarea textarea {
+    background: #fff;
+    width: 100%;
+    height: 250px;
+    line-height: 1em;
+    border-radius: 3px;
+    padding: 10px 5px;
+    border: 1px solid #d4d7da;
+    color: #464d5d;
+    font-size: 15px
+}
+
+.my-mail-info {
+    margin: 10px 0;
+    color: #8a959e;
+    font-size: 15px
+}
+
+.contact-button {
+    width: 200px;
+    margin: 10px 5px
+}
+
+.item-button {
+    text-align: center;
+    background: #df8600;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 17px 38px;
+    border: 0;
+    margin: 20px 0 0 0;
+    display: block;
+    outline: 0;
+    cursor: pointer
+}
+
+.item-button:hover {
+    background-color: #ffbc00
+}
+
+#success-message-container {
+    background: #55b369;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    visibility: hidden
+}
+
+.success-message {
+    font-weight: 400
+}
+
+#contact-me {
+    padding-bottom: 80px
+}
+
+#map {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    color: #575757
+}
+
+@media(max-width: 768px) {
+    #contact-form {
+        margin-top:20px
+    }
+
+    .item-button {
+        width: 100%
+    }
+
+    .input-half {
+        display: inline-block;
+        width: 100%
+    }
+
+    .input-text {
+        position: relative;
+        margin: 0px
+    }
+
+    #contact-me {
+        padding-bottom: 40px
+    }
+}
+
