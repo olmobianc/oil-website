@@ -24,7 +24,7 @@
     background-repeat: repeat;
     z-index: 0;
     -webkit-animation-duration: 60s;
-    background-image: url("/olive.jpg");
+    background-image: url("../images/olive.jpg");
     -webkit-animation: scroll-wrapper linear infinite;
     -moz-animation: scroll-wrapper linear infinite;
     -o-animation: scroll-wrapper linear infinite;
