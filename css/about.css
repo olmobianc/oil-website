@@ -70,6 +70,9 @@
 @media screen and (max-width: 700px) {
     #title-about {
         margin: 30px 20px 20px;
+        font-size: 34px;
+        margin: 0;
+        padding: 10px;
     }
     #image-container {
         display: grid;
@@ -78,5 +81,10 @@
     }
     .medium-image {
         margin-bottom: 20px;
+    }
+    .about-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
     }
 }

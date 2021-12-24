@@ -48,6 +48,9 @@
 
 @media screen and (max-width: 700px) {
     .navbar-list {
+        justify-content: space-around;
+    }
+    .navbar-list {
         padding: 0;
     }
     .half-width {

@@ -60,7 +60,7 @@
 
 .item-button {
     text-align: center;
-    background: #df8600;
+    background: #1f1d1b;
     font-size: 14px;
     color: #fff;
     font-weight: 600;
@@ -74,7 +74,7 @@
 }
 
 .item-button:hover {
-    background-color: #ffbc00
+    background-color: #f1b307;
 }
 
 #success-message-container {
