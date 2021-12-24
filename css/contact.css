@@ -1,5 +1,7 @@
 #contact-form {
     margin: 50px;
+    width: 70%;
+    margin: auto;
 }
 
 .input-text {
@@ -10,7 +12,7 @@
 
 .input-half {
     display: inline-block;
-    width: 48%;
+    width: 46%;
     padding: 7px 7px 7px 0;
 }
 
@@ -35,7 +37,7 @@
 
 .input-textarea textarea {
     background: #fff;
-    width: 100%;
+    width: 97%;
     height: 250px;
     line-height: 1em;
     border-radius: 3px;
