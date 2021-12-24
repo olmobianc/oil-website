@@ -14,7 +14,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="http://fonts.cdnfonts.com/css/signature-of-the-ancient" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../images/don-tano-logo-black1.jpg"/>
+    <!-- MAP -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css"
+  />
+    <script src="/js/map.js" defer></script>
     <title>Contattaci</title>
+
 </head>
 
 <body>
@@ -41,9 +52,12 @@
     <div class="empty-div"></div>
     
     <main id="contact-container">
+        <!--MAP-->
         <div class="title-about-box">
             <h2 id="title-about">Dove siamo.</h2>
+            <div id='map'></div>
         </div>
+        <!--CONTACTS-->
         <div class="title-about-box">
             <h2 id="title-about">Contattaci.</h2>
         </div>
@@ -60,7 +74,7 @@
                     required=""></div>
             <div class="input-text input-textarea"><label class="input-text-placeholder"
                     for="form-body">Messaggio*</label> <textarea id="form-body" name="form-body" required=""></textarea>
-                <div class="my-mail-info">Potete trovarci anche al numero al numero +39 333 541 7162 oppure su antonio.torrebova@gmail.com</div>
+                <div class="my-mail-info">Puoi anche trovarci al numero al numero +39 333 541 7162 oppure su antonio.torrebova@gmail.com</div>
             </div><button type="submit" class="item-button contact-button">Invia messaggio</button>
             <div id="success-message-container">
                 <h4 class="success-message">Il tuo messaggio è stato inviato correttamente</h4>

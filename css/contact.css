@@ -44,18 +44,18 @@
     padding: 10px 5px;
     border: 1px solid #d4d7da;
     color: #464d5d;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .my-mail-info {
     margin: 10px 0;
     color: #8a959e;
-    font-size: 15px
+    font-size: 15px;
 }
 
 .contact-button {
     width: 200px;
-    margin: 10px 5px
+    margin: 10px 5px;
 }
 
 .item-button {
@@ -97,13 +97,25 @@
 #map {
     margin-top: 50px;
     height: 400px;
-    width: 100%;
-    color: #575757
+    width: 85%;
+    margin: auto;
+    color: #575757;
+    box-shadow: 1px 2px 3px 1px rgb(0 0 0 / 40%), 0 2px 5px 0 rgb(0 0 0 / 19%);
 }
 
 @media(max-width: 768px) {
     #contact-form {
-        margin-top:20px
+        margin-top:20px;
+        width: 80%;
+    }
+
+    .input-textarea textarea {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .input-text input[type=email],.input-text input[type=name],.input-text input[type=subject],.input-text input[type=location],.input-text input[type=text] {
+        padding: 10px 0;
     }
 
     .item-button {
@@ -117,11 +129,16 @@
 
     .input-text {
         position: relative;
-        margin: 0px
+        margin: 0px;
+        width: 100%;
     }
 
     #contact-me {
         padding-bottom: 40px
+    }
+    #map {
+        height: 350px;
+        width: 90%;
     }
 }
 
