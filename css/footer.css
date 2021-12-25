@@ -42,17 +42,18 @@
 
 #newsletter-subscribe {
     filter: none;
+    color: white;
     overflow: hidden;
     padding: 18px 28px;
     cursor: pointer;
     font-weight: 500;
     border: none;
-    background: #ed6663;
+    background: #1f1d1b;
     border-radius: 999px;
 }
 
 #newsletter-subscribe:hover {
-    background: #cf4e4c;
+    background: #ffbc00;
     color: white;
 }
 

@@ -108,14 +108,14 @@
     margin-top: 0;
 }
 
-#discover-more-link {
+.discover-more-link {
     color: white;
     border: 2px solid white;
     display: inline-flex;
     justify-content: center;
     font-weight: 600;
     align-items: center;
-    padding: 8px 24px;
+    padding: 10px 26px;
     background: transparent;
     text-align: center;
     outline: none;
@@ -126,12 +126,12 @@
     transition: 0.3s;
 }
 
-#discover-more-link:focus {
+.discover-more-link:focus {
     box-shadow: 0 0 0 3px rgb(25 103 210 / 15%);
     outline: none;
 }
 
-#discover-more-link:hover {
+.discover-more-link:hover {
     border: none;
     box-shadow: 0 0 0 3px rgb(25 103 210 / 15%);
     font-family: "Google Sans","Roboto","Arial",sans-serif;
@@ -139,6 +139,48 @@
     color: white;
     outline: 0;
     font-weight: 600;
+}
+
+#discover-more-carousel {
+    color: white;
+    background-color: #1f1d1b;
+    border: 2px solid white;
+    padding: 12px 28px;
+}
+
+#discover-more-carousel:hover {
+    color: white;
+    background: #ffbc00;
+    border: 2px solid white;
+}
+
+#carousel-container {
+    margin-bottom: 100px;
+}
+
+.carousel-title {
+    text-align: center;
+    width: 55%;
+    font-size: 32px;
+    margin: 80px auto 60px;
+    padding: 10px;
+    font-family: "Caudex", serif;
+    line-height: 1.33em;
+    font-weight: 400;
+    color: #2c3136;
+}
+
+.carousel-grid {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.carousel-image {
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 2px 3px 1px rgb(0 0 0 / 40%), 0 2px 8px 0 rgb(0 0 0 / 19%);
 }
 
 @media screen and (max-width: 700px) {
