@@ -25,10 +25,10 @@
     z-index: 0;
     -webkit-animation-duration: 60s;
     background-image: url("../images/olive.jpg");
-    -webkit-animation: scroll-wrapper linear infinite;
-    -moz-animation: scroll-wrapper linear infinite;
-    -o-animation: scroll-wrapper linear infinite;
-    animation: scroll-wrapper linear infinite;
+    -webkit-animation: fadeIn 0.2s, scroll-wrapper linear infinite;
+    -moz-animation: fadeIn 0.2s, scroll-wrapper linear infinite;
+    -o-animation: fadeIn 0.2s, scroll-wrapper linear infinite;
+    animation: fadeIn 0.2s, scroll-wrapper linear infinite;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
@@ -81,6 +81,30 @@
       transform: translateX(-100%);
     }
 }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    10% {opacity:1;}
+  }
 
 .description {
     position: absolute;

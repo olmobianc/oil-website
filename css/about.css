@@ -18,7 +18,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 65px;
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 40px;
     background-color: #fff;
     border-width: 2px;
@@ -32,7 +32,7 @@
     font-size: 46px;
     line-height: 1.33em;
     font-weight: 400;
-    color: #2c3136;
+    color: #7f6459;
 }
 
 .title-about-box {

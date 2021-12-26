@@ -1,5 +1,6 @@
 #header-container {
     background: black;
+    backdrop-filter: saturate(180%) blur(20px);
     position: fixed;
     top: 0;
     width: 100%;
@@ -14,6 +15,7 @@
     display: flex;
     list-style: none;
     margin: 0;
+    padding: 0;
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
@@ -24,6 +26,7 @@
     text-decoration: none;
     color: #c1bdbd;
     font-size: 16px;
+    transition: 0.4s;
 }
 
 .navbar-link:hover {

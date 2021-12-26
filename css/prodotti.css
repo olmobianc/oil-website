@@ -1,3 +1,26 @@
+#preventivo {
+    display: flex;
+    justify-content: space-evenly;
+    background: #5c7944;
+    color: white;
+    padding: 50px 0;
+}
+
+.first-section-preventivo {
+    margin: auto;
+}
+
+#preventivo-arrow {
+    font-size: 22px;
+    padding: 2px;
+    margin-left: 10px;
+    display: none;
+}
+
+#preventivo-button:hover #preventivo-arrow { 
+    display: inline;
+}
+
 @media screen and (max-width: 700px) {
     .image-about {
         grid-row-start: 1;
