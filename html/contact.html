@@ -36,7 +36,7 @@
             <ul class="navbar-list">
                 <li class="navbar-elem"><a class="navbar-link" href="../html/index.html"><img class="logo"src="../images/don-tano-logo-black1.jpg"></a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/index.html">Home</a></li>
-                <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/prodotti.html">Prodotti</a></li>
+                <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/prodotti.html">Oli</a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/about.html">Chi Siamo</a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link active" href="../html/contact.html">Contatti</a></li>
                 <li class="navbar-elem hide-desktop">
@@ -52,14 +52,18 @@
     <div class="empty-div"></div>
     
     <main id="contact-container">
-        <!--MAP-->
-        <div class="title-about-box">
-            <h2 id="title-about">Dove siamo.</h2>
-            <div id='map'></div>
-        </div>
+        
         <!--CONTACTS-->
         <div class="title-about-box">
-            <h2 id="title-about">Contattaci.</h2>
+            <h2 id="title-about">Richiedi un preventivo compilando il modulo.</h2>
+        </div>
+        <div class="contacts-info">
+            Se sei interessato ai nostri prodotti, non esitare a contattarci.
+            Inviaci un messaggio utilizzando il form qui sotto oppure chiama direttamente al nostro
+            servizio clienti. Ricordati di indicarci la quantità desiderata, l’indirizzo di consegna e i tuoi
+            recapiti e-mail e/o numero telefonico su cui essere ricontattato.
+            Ti chiameremo per comunicarti il costo e solo in questo momento se lo desideri procederemo
+            con la conferma dell’ordine e ti comunicheremo le coordinate per effettuare il pagamento.
         </div>
         <form id="contact-form" name="contact-form" method="POST"><input type="hidden" name="form-name"
                 value="contact-form">
@@ -67,10 +71,10 @@
                 <input type="name" id="form-name" name="form-name" required=""></div>
             <div class="input-text input-half"><label class="input-text-placeholder" for="form-email">Email*</label>
                 <input type="email" id="form-email" name="form-email" required=""></div>
-            <div class="input-text input-half"><label class="input-text-placeholder" for="form-email">Soggetto*</label>
+            <div class="input-text input-half"><label class="input-text-placeholder" for="form-email">Indirizzo*</label>
                 <input type="subject" id="form-subject" name="form-subject" required=""></div>
             <div class="input-text input-textarea input-half"><label class="input-text-placeholder"
-                    for="form-body">Regione*</label> <input type="location" id="location" name="form-location"
+                    for="form-body">Telefono*</label> <input type="location" id="location" name="form-location"
                     required=""></div>
             <div class="input-text input-textarea"><label class="input-text-placeholder"
                     for="form-body">Messaggio*</label> <textarea id="form-body" name="form-body" required=""></textarea>
@@ -80,6 +84,13 @@
                 <h4 class="success-message">Il tuo messaggio è stato inviato correttamente</h4>
             </div>
         </form>
+
+        <!--MAP-->
+        <div class="title-about-box" style="padding-top: 0; margin: 0 0 100px;">
+            <h2 id="title-about" style="margin-top: 0;">Dove siamo.</h2>
+            <div id='map'></div>
+        </div>
+
     </main>
 
     <!--FOOTER-->
@@ -97,7 +108,7 @@
             <div class="footer-section">
                 <ul class="footer-list">
                     <li class="footer-elem"><a class="footer-link" href="../html/index.html">Home</a></li>
-                    <li class="footer-elem"><a class="footer-link" href="../html/prodotti.html">Prodotti</a></li>
+                    <li class="footer-elem"><a class="footer-link" href="../html/prodotti.html">Oli</a></li>
                     <li class="footer-elem"><a class="footer-link" href="../html/about.html">Chi Siamo</a></li>
                     <li class="footer-elem"><a class="footer-link" href="../html/contact.html">Contatti</a></li>
                 </ul>

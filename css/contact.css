@@ -53,6 +53,14 @@
     font-size: 15px;
 }
 
+.contacts-info {
+    margin: 10px 0;
+    color: #8a959e;
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+}
+
 .contact-button {
     width: 200px;
     margin: 10px 5px;
