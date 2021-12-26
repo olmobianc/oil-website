@@ -8,3 +8,72 @@ body, html {
 .empty-div {
     height: 40px;
 }
+
+#about-container, #contact-container, .carousel-image {
+    -webkit-animation: fadeIn 15s;
+    -moz-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    animation: fadeIn 15s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0.4;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0.4;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0.4;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0.4;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    50% {opacity:0.4;}
+    100% {opacity:1;}
+  }
+
+  .preventivo-comes-up {
+    -webkit-animation: comeUp 2s ease;
+    -moz-animation: comeUp 2s ease;
+    -o-animation: comeUp 2s ease;
+    animation: comeUp 2s ease;
+  }
+
+  @keyframes comeUp {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes comeUp {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes comeUp {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes comeUp {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes comeUp {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
