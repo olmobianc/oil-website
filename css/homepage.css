@@ -169,7 +169,7 @@
     color: white;
     background-color: #1f1d1b;
     border: 2px solid white;
-    padding: 12px 28px;
+    padding: 16px 36px;
 }
 
 #discover-more-carousel:hover {
@@ -195,6 +195,7 @@
 }
 
 .carousel-grid {
+    position: relative;
     display: grid;
     width: 80%;
     margin: auto;
@@ -264,6 +265,24 @@
     font-family: 'Open Sans', sans-serif;
     color: #333;
     margin: 0;
+}
+
+.carousel-arrow {
+    position: absolute;
+    color: #7f6459;
+    cursor: pointer;
+}
+
+.fa-angle-right {
+    right: -3%;
+    top: 50%;
+    font-size: 50px;
+}
+
+.fa-angle-left {
+    left: -3%;
+    top: 50%;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 700px) {

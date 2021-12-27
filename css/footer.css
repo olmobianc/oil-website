@@ -48,12 +48,12 @@
     cursor: pointer;
     font-weight: 500;
     border: none;
-    background: #ffbc00;
+    background: #d39c03;
     border-radius: 999px;
 }
 
 #newsletter-subscribe:hover {
-    background: #d39c03;
+    background: #ffbc00;
     color: white;
 }
 
