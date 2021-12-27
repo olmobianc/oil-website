@@ -22,6 +22,5 @@ document.addEventListener("DOMContentLoaded", () => {
             //bring back opacity to 1
             carouselImages[i].style.opacity = "1"
         }
-
     })
 })
