@@ -28,7 +28,7 @@
 
 </head>
 
-<body style="background: white;"
+<body style="background: white;">
 
     <!--HEADER-->
     <header id="header-container">
@@ -39,7 +39,7 @@
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/prodotti.html">Oli</a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/about.html">Chi Siamo</a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link active" href="../html/contact.html">Contatti</a></li>
-                <li class="navbar-elem hide-desktop">
+                <li id="burger" class="navbar-elem hide-desktop">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -47,6 +47,16 @@
             </ul>
         </div>
     </header>
+
+    <!--MOBILE MENU-->
+    <div id="mobile-menu" class="is-hidden">
+        <ul id="mobile-menu-list">
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/index.html">Home</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/prodotti.html">Oli</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/about.html">Chi Siamo</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/contact.html">Contattaci</a></li>
+        </ul>
+    </div>
 
     <!--CONTACT US-->
     <div class="empty-div"></div>
@@ -142,6 +152,8 @@
             <p id="last-paragraph">A project by <span id="last-paragraph-underlined">Olmo Biancardi</span></p>
         </div>
     </div>
+
+    <script src="../js/shared.js"></script>
 </body>
 
 </html>

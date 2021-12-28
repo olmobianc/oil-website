@@ -18,6 +18,10 @@ const burger = document.querySelector("#burger")
 const hiddenMenu = document.querySelector(".is-hidden")
 document.addEventListener("DOMContentLoaded", () => {
     burger.addEventListener("click", () => {
-        hiddenMenu.classList.remove("is-hidden")
+        if(hiddenMenu.classList.contains("is-hidden")) {
+            hiddenMenu.classList.remove("is-hidden")
+        } else {
+            hiddenMenu.classList.add("is-hidden")
+        }
     })
 })
