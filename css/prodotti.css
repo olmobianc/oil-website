@@ -23,6 +23,16 @@
 
 @media screen and (max-width: 700px) {
     .image-about {
-        grid-row-start: 1;
+        grid-row-start: auto;
+    }
+    #preventivo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .first-section-preventivo {
+        margin: auto;
+        width: 80%!important;
+        text-align: center;
     }
 }

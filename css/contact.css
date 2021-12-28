@@ -141,9 +141,18 @@
         width: 100%;
     }
 
+    .contacts-info {
+        width: 80%;
+    }
+
+    #success-message-container {
+        display: none;
+    }
+
     #contact-me {
         padding-bottom: 40px
     }
+
     #map {
         height: 350px;
         width: 90%;

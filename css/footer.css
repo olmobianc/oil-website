@@ -198,4 +198,14 @@
         margin: 0 12px;
         text-align: center;
     }
+    #newsletter {
+        width: 100%;
+    }
+    #newsletter-form {
+        width: 88%!important;
+        text-align: center;
+    }
+    #newsletter-subscribe {
+        width: 100%;
+    }
 }

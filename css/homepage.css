@@ -1,3 +1,7 @@
+body {
+    background: #edece9;
+}
+
 #homepage-container {
     background: black;
     height: 750px;
@@ -305,7 +309,7 @@
         top: 15%;
     }
     .mini-description {
-        display: none;
+        width: 70%;
     }
     .mbr-section-title {
         font-size: 5rem;
@@ -322,5 +326,42 @@
     #newsletter-form {
         margin-bottom: 16px;
         width: 240px!important;
+    }
+    .carousel-title {
+        width: 75%;
+        font-size: 26px;
+        margin: 200px auto 60px;
+    }
+    .carousel-image {
+        width: 250px;
+        height: 250px;
+    }
+    #land {
+        grid-template-columns: 1fr;
+    }
+    .land-title {
+        margin-top: 0;
+    }
+    .land-about {
+        margin-top: 40px;
+    }
+    .image-land {
+        width: 100%;
+    }
+    #production {
+        grid-template-columns: 1fr;
+    }
+    .production-title {
+        margin-top: 0;
+    }
+    .image-production {
+        width: 100%;
+    }
+    .land-about-2 {
+        grid-row-start: 2;
+        margin-top: 40px;
+    }
+    #rule {
+        display: none;
     }
 }

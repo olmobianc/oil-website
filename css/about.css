@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 700px) {
     #title-about {
+        margin-top: 40px!important;
         margin: 30px 20px 20px;
         font-size: 34px;
         margin: 0;
