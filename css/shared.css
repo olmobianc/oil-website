@@ -9,6 +9,33 @@ body, html {
     height: 40px;
 }
 
+#mobile-menu-list {
+  background: #1f1d1b;
+  color: white;
+  text-align: left;
+  padding: 70px 0 50px 25px;
+  list-style: none;
+  font-size: 22px;
+  position: absolute;
+  width: 100%;
+  backdrop-filter: none;
+  z-index: 8;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.mobile-menu-elem {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.mobile-menu-link {
+  text-decoration: none;
+  color: white;
+}
+
 #about-container, #contact-container, .carousel-image {
     -webkit-animation: fadeIn 15s;
     -moz-animation: fadeIn 15s;
