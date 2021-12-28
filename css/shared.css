@@ -13,13 +13,24 @@ body, html {
   background: #1f1d1b;
   color: white;
   text-align: left;
-  padding: 70px 0 50px 25px;
+  padding: 70px 0 50px 0;
   list-style: none;
   font-size: 22px;
   position: absolute;
   width: 100%;
   backdrop-filter: none;
   z-index: 8;
+  animation-name: appear;
+  animation-duration: 2s;
+}
+
+@keyframes appear {
+  from {
+    top: -40%;
+  }
+  to {
+    top: 0%;
+  }
 }
 
 .is-hidden {
@@ -28,6 +39,7 @@ body, html {
 
 .mobile-menu-elem {
   padding: 10px;
+  padding-left: 30px;
   border-bottom: 1px solid grey;
 }
 
