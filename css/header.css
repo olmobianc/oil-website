@@ -33,6 +33,11 @@
     color: white;
 }
 
+.navbar-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
 .active {
     color: white;
     border-bottom: 3px solid white;

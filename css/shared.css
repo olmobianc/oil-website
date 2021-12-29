@@ -126,4 +126,18 @@ body, html {
   #mobile-menu {
     opacity: 1;
   }
+
+  .rotate-right {
+    transform: rotate(45deg);
+    transition: .2s ease-in-out;
+  }
+
+  .fade-out {
+    visibility: hidden;
+  }
+
+  .rotate-left {
+    transform: translateY(-15px) rotate(-45deg);
+    transition: all .2s ease-in-out;
+  }
 }
