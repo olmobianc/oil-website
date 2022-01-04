@@ -110,8 +110,16 @@
             <h5 id="newsletter-title">Iscriviti alla nostra Newsletter</h5>
             <h3 id="newsletter-subtitle">Riceverai informazioni, novità sugli eventi e offerte sui nostri prodotti.</h3>
             <div id="newsletter">
-                <input type="email" id="newsletter-form" name="EMAIL" placeholder="Il tuo indirizzo email" required="">
-                <button type="submit" id="newsletter-subscribe"><span>Iscriviti</span></button>
+
+                <form action="https://formsubmit.co/olmo1995@gmail.com" name="contact-form" method="POST"><input type="hidden" name="form-name" value="contact-form">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/contact.html">
+                    <input type="hidden" name="_subject" value="Nuova Iscrizione Newsletter!">
+
+                    <input type="email" id="newsletter-form" name="EMAIL" placeholder="Il tuo indirizzo email" required="">
+                    <button type="submit" id="newsletter-subscribe"><span>Iscriviti</span></button>
+                </form>
+                
             </div>
         </div>
         <hr id="rule">

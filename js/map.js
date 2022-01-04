@@ -14,8 +14,8 @@ function successLocation(position) {
     const map = new mapboxgl.Map({
       container: "map",
       style: "mapbox://styles/mapbox/streets-v11",
-      center: [14.3545, 37.4703],
-      zoom: 10
+      center: [14.6420751, 37.7496118],
+      zoom: 11
     })
   
     const nav = new mapboxgl.NavigationControl()
