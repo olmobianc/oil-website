@@ -19,7 +19,7 @@
 <body>
 
     <!-- HEADER -->
-    <header id="header-container" class="half-width">
+    <header id="header-container" class="half-width homepage-header">
         <div id="navbar">
             <ul class="navbar-list">
                 <li class="navbar-elem"><a class="navbar-link" href="../html/index.html"><img class="logo" src="../images/don-tano-logo-black1.jpg"></a></li>
@@ -28,13 +28,23 @@
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/about.html">Chi Siamo</a></li>
                 <li class="navbar-elem hide-mobile"><a class="navbar-link" href="../html/contact.html">Contatti</a></li>
                 <li id="burger" class="navbar-elem hide-desktop">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div id="first-line"></div>
+                    <div id="second-line"></div>
+                    <div id="third-line"></div>
                 </li>
             </ul>
         </div>
     </header>
+
+    <!--MOBILE MENU-->
+    <div id="mobile-menu" class="is-hidden">
+        <ul id="mobile-menu-list" style="padding-top: 0; margin-top: 0;">
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/index.html">Home</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/prodotti.html">Oli</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/about.html">Chi Siamo</a></li>
+            <li class="mobile-menu-elem"><a class="mobile-menu-link" href="../html/contact.html">Contattaci</a></li>
+        </ul>
+    </div>
 
     <!-- HOMEPAGE -->
     <main id="homepage-container">

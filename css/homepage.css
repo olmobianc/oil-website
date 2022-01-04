@@ -330,7 +330,7 @@ body {
     .carousel-title {
         width: 75%;
         font-size: 26px;
-        margin: 200px auto 60px;
+        margin: 50px auto 60px;
     }
     .carousel-image {
         width: 250px;
@@ -363,5 +363,13 @@ body {
     }
     #rule {
         display: none;
+    }
+    #test {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .homepage-header {
+        position: relative !important;
+        width: 100%!important;
     }
 }
