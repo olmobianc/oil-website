@@ -333,8 +333,8 @@ body {
         margin: 50px auto 60px;
     }
     .carousel-image {
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: auto;
     }
     #land {
         grid-template-columns: 1fr;
@@ -371,5 +371,12 @@ body {
     .homepage-header {
         position: relative !important;
         width: 100%!important;
+    }
+    .fa-angle-right {
+        right: -10%;
+    }
+    
+    .fa-angle-left {
+        left: -6%;
     }
 }

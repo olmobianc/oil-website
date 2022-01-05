@@ -3,24 +3,57 @@ document.addEventListener("DOMContentLoaded", () => {
     const carouselImages = document.querySelectorAll(".carousel-image")
 
     let counter = 0
-    rightArrow.addEventListener("click", () => {
-        counter++
-        for(let i = counter - 1; i < counter; i++) {
-            if(i >= carouselImages.length) {
-                rightArrow.style.color = "grey"
-                rightArrow.style.cursor = "default"
-                break
-            }
-            //appned first image that will be hidden to the end of the carousel
-            document.querySelector("#test").appendChild(carouselImages[i])
-            //hide first image
-            carouselImages[i].style.opacity = "0"
-            //show first hidden elem by removing the class invisible
-            document.querySelector(".invisible").classList.remove("invisible")
-            //hide first image by adding the class invisible
+
+    //MOBILE
+    if(window.innerWidth <= 970) {
+        console.log("ciao")
+        for(let i = 1; i < carouselImages.length; i++) {
             carouselImages[i].classList.add("invisible")
-            //bring back opacity to 1
-            carouselImages[i].style.opacity = "1"
+        }
+    }
+    
+    rightArrow.addEventListener("click", () => {
+        //MOBILE
+        if(window.innerWidth <= 970) {
+            console.log("ciao")
+            counter++
+            for(let i = counter - 1; i < counter; i++) {
+                if(i >= carouselImages.length) {
+                    rightArrow.style.color = "grey"
+                    rightArrow.style.cursor = "default"
+                    break
+                }
+                //appned first image that will be hidden to the end of the carousel
+                document.querySelector("#test").appendChild(carouselImages[i])
+                //hide first image
+                carouselImages[i].style.opacity = "0"
+                //show first hidden elem by removing the class invisible
+                document.querySelector(".invisible").classList.remove("invisible")
+                //hide first image by adding the class invisible
+                carouselImages[i].classList.add("invisible")
+                //bring back opacity to 1
+                carouselImages[i].style.opacity = "1"
+            }
+        //DESKTOP    
+        } else {
+            counter++
+            for(let i = counter - 1; i < counter; i++) {
+                if(i >= carouselImages.length) {
+                    rightArrow.style.color = "grey"
+                    rightArrow.style.cursor = "default"
+                    break
+                }
+                //appned first image that will be hidden to the end of the carousel
+                document.querySelector("#test").appendChild(carouselImages[i])
+                //hide first image
+                carouselImages[i].style.opacity = "0"
+                //show first hidden elem by removing the class invisible
+                document.querySelector(".invisible").classList.remove("invisible")
+                //hide first image by adding the class invisible
+                carouselImages[i].classList.add("invisible")
+                //bring back opacity to 1
+                carouselImages[i].style.opacity = "1"
+            }
         }
     })
 })
