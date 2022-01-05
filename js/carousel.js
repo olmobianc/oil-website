@@ -80,7 +80,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 leftArrow.style.color = "grey"
                 leftArrow.style.cursor = "default"
             }
-            
+        }
+        //DESKTOP
+        else {
+            if(counter != 0) {
+                carouselImages[counter].classList.add("invisible")
+                const lastElement = document.querySelectorAll(".carousel-image")[carouselImages.length - 1]
+                lastElement.classList.remove("invisible")
+                document.querySelector("#test").insertBefore(lastElement, document.querySelector("#test").firstChild);
+                counter--
+                console.log(counter)
+            } else {
+                leftArrow.style.color = "grey"
+                leftArrow.style.cursor = "default"
+            }
         }
     })
 
