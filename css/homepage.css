@@ -299,6 +299,7 @@ body {
 }
 
 .fa-angle-left {
+    visibility: hidden;
     left: -3%;
     top: 50%;
     font-size: 50px;
@@ -377,10 +378,25 @@ body {
     }
     
     .fa-angle-left {
+        visibility: visible;
         left: -6%;
     }
     .cid-syqDQvUSvi .scroll-wrapper {
         animation: none!important;
         left: 0!important;
+    }
+    .cid-syqDQvUSvi .scroll-wrapper {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 912px) {
+    .cid-syqDQvUSvi .scroll-wrapper {
+        animation: none!important;
+        left: 0!important;
+    }
+    .carousel-grid {
+        padding-top: 130px;
+        justify-content: center;
     }
 }
