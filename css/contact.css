@@ -119,11 +119,11 @@
 
     .input-textarea textarea {
         width: 100%;
-        padding: 10px 0;
+        padding: 10px 0 10px 5px;
     }
 
     .input-text input[type=email],.input-text input[type=name],.input-text input[type=subject],.input-text input[type=location],.input-text input[type=text] {
-        padding: 10px 3px;
+        padding: 10px 0 10px 5px;
     }
 
     .item-button {
