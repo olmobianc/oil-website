@@ -123,7 +123,7 @@
     }
 
     .input-text input[type=email],.input-text input[type=name],.input-text input[type=subject],.input-text input[type=location],.input-text input[type=text] {
-        padding: 10px 0;
+        padding: 10px 3px;
     }
 
     .item-button {
