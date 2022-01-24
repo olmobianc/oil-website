@@ -114,8 +114,8 @@ body, html {
 
   .mobile-menu-elem {
     padding: 10px;
-    padding-left: 30px;
-    border-bottom: 1px solid grey;
+    padding-left: 20%;
+    border-bottom: 2px solid grey;
   }
   
   .mobile-menu-link {

@@ -334,8 +334,8 @@ body {
         margin: 80px auto 60px;
     }
     .carousel-image {
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 300px;
     }
     #land {
         grid-template-columns: 1fr;
