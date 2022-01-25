@@ -216,8 +216,8 @@ body {
 }
 
 .carousel-image {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     margin: 5px;
     box-shadow: 1px 2px 3px 1px rgb(0 0 0 / 40%), 0 2px 8px 0 rgb(0 0 0 / 19%);
     transition: transform .2s;
